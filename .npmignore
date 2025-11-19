@@ -1,0 +1,19 @@
+# Source files (only ship compiled JS)
+src/
+examples/
+*.ts
+!*.d.ts
+
+# Config files
+tsconfig.json
+.gitignore
+.npmignore
+
+# Documentation (keep README)
+TECHNICAL.md
+
+# Development files
+node_modules/
+.vscode/
+.idea/
+*.log
