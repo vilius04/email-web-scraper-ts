@@ -20,6 +20,7 @@ yarn-debug.log*
 Thumbs.db
 
 # IDE
+.vscode/
 .idea/
 *.swp
 *.swo
@@ -39,7 +40,8 @@ temp/
 *_emails.csv
 
 # Environment variables (if you add them later)
+.env
+.env.local
 
 # Puppeteer browser downloads (optional)
 .cache/
-config.bat
